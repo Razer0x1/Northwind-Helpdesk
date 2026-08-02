@@ -1,29 +1,46 @@
-# Welcome to your Lovable project
+# Northwind Helpdesk
 
-This project was built with [Lovable](https://lovable.dev).
+Northwind Helpdesk is a sample/helpdesk web application for demonstrating features and workflows. It provides a simple interface for tracking support tickets and customer interactions.
 
-## Build with Lovable
+## Features
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+- Create, view, and update support tickets
+- Assign tickets to agents
+- Search and filter tickets
+- REST API backend with a frontend client
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+## Tech stack
 
-## Development
+- JavaScript / TypeScript
+- React
+- Node.js
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+## Getting started
 
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
+Prerequisites:
+
+- Node.js 16+ (use nvm to manage versions)
+
+Install and run locally:
+
+```bash
+git clone https://github.com/Razer0x1/Northwind-Helpdesk.git
+cd Northwind-Helpdesk
+npm install
 npm run dev
 ```
 
-## Built with
+Build for production:
 
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
+```bash
+npm run build
+npm start
+```
+
+## Contributing
+
+Contributions are welcome. Please open issues or pull requests with a clear description of the change.
+
+## License
+
+This repository does not specify a license. Add a LICENSE file if you want to define one.
